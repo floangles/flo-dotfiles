@@ -30,6 +30,7 @@
 		"Autoprefixer",		
 		"A File Icon",
 		"HTML-CSS-JS Prettify",
-		"Babel"
+		"Babel",
+		"SCSS"
 	]
 }

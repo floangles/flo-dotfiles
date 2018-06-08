@@ -44,12 +44,18 @@ brew cask install macvim
 brew cask install google-chrome
 brew cask install iterm2
 brew cask install flux
+brew cask install ngrok
 brew cask install chitchat
 brew cask install postman
 brew cask install spotify
 brew cask install vlc
 brew cask install skype
 brew cask install molotov
+
+# Configure Redis
+echo 'configure redis'
+ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
 # Install homebrew
 echo 'Installing Homebrew'
